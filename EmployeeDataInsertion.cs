@@ -5,7 +5,7 @@ namespace PayrollSystem
 {
     class EmployeeDataInsertion : RegistrationValidation
     {
-        List<Data> employeeinformation = new List<Data>();
+       Static List<Data> employeeinformation = new List<Data>();
        
        
         public bool AddEmployee(Data employee)
@@ -28,7 +28,7 @@ namespace PayrollSystem
             MobileNumber = ValidateMobileNumber();
             Console.WriteLine("Enter an Employee Designation");
             string DepartmentName = Console.ReadLine();
-            Console.WriteLine("Enter an Employee ID");
+            Console.WriteLine("Enter an Emploee Salary");
             Double Salary = double.Parse(Console.ReadLine());
             Data employee = new Data(EmployeeName, Id, Email, Designation, DateOfBirth, MobileNumber, DepartmentName, Salary);
             bool status = AddEmployee(employee);
