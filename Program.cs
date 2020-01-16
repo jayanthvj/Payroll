@@ -41,9 +41,9 @@ namespace PayrollSystem
         public void EmployeeLogin()
         {
             Admin home = new Admin();
-            Console.WriteLine("Enter the product Name");
+            Console.WriteLine("Enter the User Name");
             employeeName = Console.ReadLine();
-            Console.WriteLine("Enter the Rate");
+            Console.WriteLine("Enter the Password");
             employeePassword = Console.ReadLine();
             if (employeeName.Equals(employeeName) && employeePassword.Equals(employeePassword))
             {
