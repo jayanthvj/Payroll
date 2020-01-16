@@ -11,17 +11,7 @@ namespace PayrollSystem
         public long MobileNumber;
         public DateTime DateOfBirth;
         public int PinCode, ID;
-        //public void AddUser()
-        //{
-        //    name = validateName();
-        //    mobile = ValidateCellNumber();
-        //    dob = validateDob();
-        //    mail = validateMail();
-        //    password = validatePassword();
-        //    registration();
-        //}
-        //validate name is done here...
-
+       
         internal string ValidName()
         {
             Console.WriteLine("FirstName : ");
